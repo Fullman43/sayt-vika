@@ -4,19 +4,16 @@ const nextConfig = {
   productionBrowserSourceMaps: false,
   devIndicators: false,
   output: 'standalone',
-  // Disable critters optimizeCss to avoid missing module during build
   experimental: {
     optimizeCss: false,
     scrollRestoration: true,
   },
-  // Inject project root path as environment variable
+  turbopack: {},
   env: {
     NEXT_PUBLIC_PROJECT_ROOT: process.cwd(),
   },
-  // Add webpack configuration to handle server-side code properly
   webpack: (config, { isServer }) => {
     if (!isServer) {
-      // Exclude server-only modules from client bundle
       config.resolve.fallback = {
         ...config.resolve.fallback,
         fs: false,
@@ -27,5 +24,4 @@ const nextConfig = {
     return config;
   },
 };
-
 module.exports = nextConfig;

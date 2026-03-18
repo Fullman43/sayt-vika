@@ -74,3 +74,6 @@ temp/
 # Electron build artifacts (too large for GitHub)
 dist/
 release/
+
+# Large media (Claudable)
+assets/gif/

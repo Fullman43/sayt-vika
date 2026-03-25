@@ -52,9 +52,9 @@ export default function ProcessSection() {
         {/* Title */}
         <div className="text-center mb-14">
           <h2 className="font-oswald font-bold text-4xl sm:text-5xl text-white uppercase tracking-wider mb-4">
-            ПРОЦЕСС <span className="text-paint-yellow neon-text">РАБОТЫ</span>
+            ПРОЦЕСС <span className="text-paint-yellow neon-text-half">РАБОТЫ</span>
           </h2>
-          <div className="section-line mx-auto" />
+          <div className="section-line section-line-soft mx-auto" />
         </div>
 
         {/* Steps */}

@@ -28,7 +28,14 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-3">
               <div className="relative w-14 h-14">
-                <Image src="/logo.png" alt="Покрасочная №1" fill className="object-contain" />
+                <Image
+                  src="/logo-pokr.png?v=2"
+                  alt="Покрасочная №1"
+                  fill
+                  className="object-contain"
+                  unoptimized
+                  quality={100}
+                />
               </div>
               <div>
                 <div className="font-oswald font-bold text-xl text-white">ПОКРАСОЧНАЯ</div>

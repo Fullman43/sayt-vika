@@ -39,6 +39,10 @@
     text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 40px rgba(255, 215, 0, 0.5);
   }
 
+  .neon-text-half {
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.8), 0 0 10px rgba(255, 215, 0, 0.6), 0 0 20px rgba(255, 215, 0, 0.25);
+  }
+
   .neon-text-sm {
     text-shadow: 0 0 6px #FFD700, 0 0 12px rgba(255, 215, 0, 0.6);
   }
@@ -76,6 +80,10 @@
   background: linear-gradient(90deg, #FFD700, #FFE44D);
   border-radius: 2px;
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+
+.section-line-soft {
+  box-shadow: 0 0 5px rgba(255, 215, 0, 0.3);
 }
 
 /* Card hover border glow */

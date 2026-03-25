@@ -37,25 +37,20 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-20 md:h-24 overflow-visible">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-12 h-12 md:w-14 md:h-14">
+          <Link href="/" className="group relative flex items-start">
+            <div className="relative w-[6.5rem] h-[6.5rem] md:w-[7.8rem] md:h-[7.8rem] translate-y-6 md:translate-y-7">
               <Image
-                src="/logo.png"
+                src="/logo-pokr.png?v=2"
                 alt="Покрасочная №1"
                 fill
+                unoptimized
+                quality={100}
+                sizes="(min-width: 768px) 124px, 104px"
                 className="object-contain group-hover:scale-105 transition-transform duration-300"
                 priority
               />
-            </div>
-            <div className="hidden sm:block">
-              <div className="font-oswald font-bold text-lg leading-tight text-white group-hover:text-paint-yellow transition-colors">
-                ПОКРАСОЧНАЯ
-              </div>
-              <div className="font-oswald font-bold text-2xl leading-none text-paint-yellow neon-text-sm">
-                №1
-              </div>
             </div>
           </Link>
 
@@ -72,8 +67,8 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden lg:block">
+          {/* Right side actions + partner logo */}
+          <div className="hidden lg:flex items-center gap-4">
             <Link
               href="/calculator"
               className="inline-flex items-center gap-2 bg-paint-yellow text-paint-dark font-oswald font-bold text-sm tracking-wider uppercase px-6 py-3 rounded hover:bg-paint-yellow-light transition-all duration-200 shadow-neon-sm hover:shadow-neon"
@@ -83,6 +78,23 @@ export default function Header() {
               </svg>
               Рассчитать стоимость
             </Link>
+            <a
+              href="https://12voltmsk.ru/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Перейти на сайт 12 VOLT"
+              className="relative w-[6.5rem] h-[6.5rem] md:w-[7.8rem] md:h-[7.8rem] translate-y-6 md:translate-y-7 block hover:opacity-90 transition-opacity"
+            >
+              <Image
+                src="/logo-12volt-clean.png?v=2"
+                alt="12 Вольт"
+                fill
+                unoptimized
+                quality={100}
+                sizes="(min-width: 768px) 124px, 104px"
+                className="object-contain"
+              />
+            </a>
           </div>
 
           {/* Mobile Burger */}

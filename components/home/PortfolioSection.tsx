@@ -57,9 +57,9 @@ export default function PortfolioSection() {
         {/* Title */}
         <div className="text-center mb-10">
           <h2 className="font-oswald font-bold text-4xl sm:text-5xl text-white uppercase tracking-wider mb-4">
-            НАШИ <span className="text-paint-yellow neon-text">РАБОТЫ</span>
+            НАШИ <span className="text-paint-yellow neon-text-half">РАБОТЫ</span>
           </h2>
-          <div className="section-line mx-auto mb-4" />
+          <div className="section-line section-line-soft mx-auto mb-4" />
           <p className="text-gray-400 font-inter text-lg">
             Реальные проекты — реальные результаты
           </p>

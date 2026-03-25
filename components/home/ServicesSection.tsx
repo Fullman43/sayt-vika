@@ -110,9 +110,9 @@ export default function ServicesSection() {
         {/* Title */}
         <div className="text-center mb-14">
           <h2 className="font-oswald font-bold text-4xl sm:text-5xl text-white uppercase tracking-wider mb-4">
-            НАШИ <span className="text-paint-yellow neon-text">УСЛУГИ</span>
+            НАШИ <span className="text-paint-yellow neon-text-half">УСЛУГИ</span>
           </h2>
-          <div className="section-line mx-auto mb-4" />
+          <div className="section-line section-line-soft mx-auto mb-4" />
           <p className="text-gray-400 font-inter text-lg max-w-xl mx-auto">
             Полный цикл покраски и защитной обработки оборудования систем безопасности
           </p>

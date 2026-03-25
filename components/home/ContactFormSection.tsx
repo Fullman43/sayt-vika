@@ -33,9 +33,9 @@ export default function ContactFormSection() {
           {/* Left */}
           <div>
             <h2 className="font-oswald font-bold text-4xl sm:text-5xl text-white uppercase tracking-wider mb-4">
-              СВЯЗАТЬСЯ <span className="text-paint-yellow neon-text">С НАМИ</span>
+              СВЯЗАТЬСЯ <span className="text-paint-yellow neon-text-half">С НАМИ</span>
             </h2>
-            <div className="section-line mb-6" />
+            <div className="section-line section-line-soft mb-6" />
             <p className="text-gray-400 font-inter text-lg leading-relaxed mb-8">
               Оставьте контакты — перезвоним в течение 15 минут и ответим на все вопросы.
               Или воспользуйтесь калькулятором для точного расчёта.

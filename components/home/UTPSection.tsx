@@ -48,9 +48,9 @@ export default function UTPSection() {
         {/* Title */}
         <div className="text-center mb-14">
           <h2 className="font-oswald font-bold text-4xl sm:text-5xl text-white uppercase tracking-wider mb-4">
-            ПОЧЕМУ <span className="text-paint-yellow neon-text">ПОКРАСОЧНАЯ №1</span>
+            ПОЧЕМУ <span className="text-paint-yellow neon-text-half">ПОКРАСОЧНАЯ №1</span>
           </h2>
-          <div className="section-line mx-auto" />
+          <div className="section-line section-line-soft mx-auto" />
         </div>
 
         {/* Cards */}
